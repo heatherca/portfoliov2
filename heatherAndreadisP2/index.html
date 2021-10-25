@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Heather Andreadis, a Front-End Web Developer">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
+  <!-- <link type="image/png" href="./assets/HAlogo.png" rel="icon"> -->
+  <script src="https://kit.fontawesome.com/100242a674.js" crossorigin="anonymous"></script>
+  <title>Heather Andreadis | Web Developer</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="wrapper">
+        <div class="logo"><svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.1208 7.84615V31H20.7062V20.3162H6.21846V31H3.77077V7.84615H6.21846V18.1662H20.7062V7.84615H23.1208Z"
+            fill="white" />
+          <path
+            d="M36.0042 31.851H23.1042L20.3257 38.0364H17.7788L28.3634 14.8825H30.778L41.3627 38.0364H38.7827L36.0042 31.851ZM35.1111 29.8664L29.5542 17.4295L23.9973 29.8664H35.1111Z"
+            fill="white" />
+        </svg></div>
+        <div>
+          <button type="button" id="hamburger-menu" class="open-nav-btn" aria-label="open navigation"
+            aria-controls="link-list" aria-expanded="false">&#9776;</button>
+          <div id="slide-nav" class="slide-content">
+            <button type="button" id="close" class="close-btn" aria-label="close navigation">&times;</button>
+            <ul id="link-list" class="link-list">
+              <li><a href="#about">About</a>
+              <li><a href="#work">Work</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+
+
+          </div>
+    </nav>
+    <div class="landing">
+      <div class="circles">
+        <div class="div1 circle scale-up-br">
+          <p>Heather Andreadis</p>
+        </div>
+        <div class="div2 circle scale-up-bl">
+          <p>web developer</p>
+          <p>+</p>
+          <p>cat lady</p>
+        </div>
+        <div class="div3 circle scale-up-top ">
+          <a href="#about" title="about"><img alt="down arrow" src="./assets/Vector 1s.svg" /></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="about" class="section1 about">
+      <div class="wave1" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+          style="height: 100%; width: 100%;">
+          <path d="M-2.83,40.95 C246.04,199.83 224.60,-49.85 505.07,77.47 L500.00,150.00 L-2.26,155.42 Z"
+            style="stroke: none; fill:  #062949;"></path>
+        </svg></div>
+      <div class="aboutContent wrapper">
+        <div class="aboutWords" data-aos="fade-right" data-aos-duration="1000" 
+        data-aos-easing="ease-in-sine">
+          <h2>About <span><img src="assets/whitearrow.svg" aria-hidden="true"></span></h2>
+          <p>Hi! I'm Heather, a constantly learning Developer with the goal of creating websites that are thoughtfully
+            designed
+            and accessible for all.</p>
+          <p>
+            I've most recently spent my time honing my coding skills at places such as Juno College, Wesbos, and
+            SuperHi. Helping
+            me utilize those skills and create some of the projects below has been my experience with managing the
+            merchandising
+            needs of high volume retail stores. My familiarity with time-sensitive and collaborative environments allows
+            me to
+            find creative solutions both within and outside the code.
+          </p>
+          <p>
+            Away from my laptop I can be found exploring locally and globally, riding my bike, and talking way too much
+            about my
+            cat.
+          </p>
+        </div>
+        <div class="aboutImages" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+          <img class="picone" src="assets/clouds.jpg" alt="clouds during sunset tinted with purple and orange">
+          <img class="pictwo" src="assets/me.jpg"
+            alt="heather walking on hill with view of lighthouse and water in distance">
+          <img class="picthree" src="./assets/feet copy.jpg" alt="mosaic floor with shoes of photographer">
+        </div>
+
+      </div>
+      <div class="wave2" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+          style="height: 100%; width: 100%;">
+          <path d="M-2.83,40.95 C246.04,199.83 224.60,-49.85 505.07,77.47 L500.00,150.00 L-2.26,155.42 Z"
+            style="stroke: none; fill:  #062949;"></path>
+        </svg></div>
+    </section>
+
+
+    <section class="work" id="work" >
+      <div class="wrapper">
+        <h2>Work <span><img src="assets/bluearrow.svg" aria-hidden="true"></span></h2>
+        <ul id="work-list">
+          <li><button value="shoppies" aria-label="The Shoppies"><img alt="The Shoppies" src="./assets/noun_Movie_1459856.png" /></button></li>
+          <li><button value="wcis" aria-label="Where can I see?"><img alt="Where can I see?" src="./assets/paint.png" /></button></li>
+          <li><button value="trivia" aria-label="Trivia Quest"><img alt="Trivia Quest" src="./assets/question.png" /></button></li>
+          <li><button value="nonna" aria-label="Nonna's Lasagna"><img alt="Nonna's Lasagna" src="./assets/people.png" /></button></li>
+          <li><button value="sun" aria-label="Sunshine"><img  alt="Sunshine" src="./assets/sun.png" /></button></li>
+        </ul>
+        <div class="workContent">
+          <div class="workWords">
+            <h3 class="workTitle">The Shoppies</h3>
+            <p class="workInfo">Adapted from a Shopify intern challenge, a React app that allows users to search a
+              database of films and nominate them
+              for the 'Shoppies'. Uses local storage to save nominees and features a tweet button to allow sharing on
+              Twitter.</p>
+            <div>
+            <a href="https://heatherca.github.io/shoppies21/" class="workLink" target=”_blank” rel=”noopener noreferrer”>View Live</a>
+            <a href="https://heatherca.github.io/shoppies21/" class="workGit" target=”_blank” rel=”noopener noreferrer”>GitHub</a>
+            </div>
+          </div>
+          <div class="workPics">
+
+            <img class="desktopPic" alt="desktop screenshot of The Shoppies project" src="./assets/shoppiesD.png" />
+            <img class="mobilePic" alt="mobile screenshot of The Shoppies project" src="./assets/shoppiesM.png" />
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </section>
+        <section id="skills" class="skills">
+          <div class="wave1" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+              style="height: 100%; width: 100%;">
+              <path d="M-2.83,40.95 C246.04,199.83 224.60,-49.85 505.07,77.47 L500.00,150.00 L-2.26,155.42 Z"
+                style="stroke: none; fill:  #062949;"></path>
+            </svg></div>
+          <h2 class="wrapper">Skills <span><img src="assets/whitearrow.svg" aria-hidden="true"></span></h2>
+          <div class="skillGrid wrapper">
+            <div class="skill">
+              <i class="fab fa-html5" aria-hidden="true"></i>
+              <p>HTML</p>
+            </div>
+            <div class="skill">
+              <i class="fab fa-css3-alt" aria-hidden="true"></i>
+              <p>CSS</p>
+            </div>
+            <div class="skill">
+              <i class="fab fa-sass" aria-hidden="true"></i>
+              <p>Sass</p>
+            </div>
+            <div class="skill">
+              <i class="fab fa-js-square" aria-hidden="true"></i>
+              <p>JavaScript</p>
+            </div>
+            <div class="skill">
+              <i class="devicon-jquery-plain" aria-hidden="true"></i>
+              <p>jQuery</p>
+            </div>
+            <div class="skill">
+              <i class="fab fa-react" aria-hidden="true"></i>
+              <p>React</p>
+            </div>
+            <div class="skill">
+              <i class="devicon-gatsby-plain" aria-hidden="true"></i>
+              <p>Gatsby</p>
+            </div>
+            <div class="skill">
+              <i class="fab fa-shopify" aria-hidden="true"></i>
+              <p>Shopify</p>
+            </div>
+            <div class="skill">
+              <i class="devicon-wordpress-plain" aria-hidden="true"></i>
+              <p>Wordpress</p>
+            </div>
+            <div class="skill">
+              <i class="fas fa-cogs" aria-hidden="true"></i>
+              <p>Rest API</p>
+            </div>
+            <div class="skill">
+              <i class="fab fa-github" aria-hidden="true"></i>
+              <p>GitHub</p>
+            </div>
+            <div class="skill">
+              <i class="devicon-visualstudio-plain" aria-hidden="true"></i>
+              <p>VS Code</p>
+            </div>
+            <div class="skill">
+              <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+              <p>Responsive Design</p>
+            </div>
+            <div class="skill">
+              <i class="fas fa-universal-access" aria-hidden="true"></i>
+              <p>Accessibility</p>
+            </div>
+            <div class="skill">
+              <i class="devicon-slack-plain" aria-hidden="true"></i>
+              <p>Slack</p>
+            </div>
+          </div>
+          <div class="wave2" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+              style="height: 100%; width: 100%;">
+              <path d="M-2.83,40.95 C246.04,199.83 224.60,-49.85 505.07,77.47 L500.00,150.00 L-2.26,155.42 Z"
+                style="stroke: none; fill:  #062949;"></path>
+            </svg></div>
+        </section>
+
+  </main>
+  <footer>
+    <div class="wrapper">
+      <div data-aos-duration="1000" data-aos="flip-left" id="contact" class="contactInfo">
+      <h2>Contact <span><img src="assets/bluearrow.svg"></span></h2>
+      <p>h.c.andreadis@gmail.com</p>
+      <div class="socials">
+        <a id="linkedin" aria-label="linkedin" href="https://www.linkedin.com/in/heather-andreadis/"><i
+            class="fab fa-linkedin-in" target=”_blank” rel=”noopener noreferrer”></i></a>
+        <a id="github" aria-label="Github" href="https://github.com/heatherca" target=”_blank” rel=”noopener noreferrer”><i class="fab fa-github"></i></a>
+        <a id="twitter" aria-label="twitter" href="https://twitter.com/heatherdotca" target=”_blank” rel=”noopener noreferrer”><i class="fab fa-twitter"></i></a>
+      </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+
+    const workArray = [
+      {
+        id: 'shoppies',
+        title: 'The Shoppies',
+        info: "Adapted from a Shopify intern challenge, a React app that allows users to search a database of films and nominate them for the 'Shoppies'. Uses local storage to save nominees and features a tweet button to allow sharing on Twitter.",
+        link: 'https://heatherca.github.io/shoppies21/',
+        git: 'https://heatherca.github.io/shoppies21/',
+        desktop: './assets/shoppiesD.png',
+        desktopAlt: 'desktop screenshot of The Shoppies project',
+        mobile: './assets/shoppiesM.png',
+        mobileAlt: 'mobile screenshot of The Shoppies project',
+      },
+      {
+        id: 'wcis',
+        title: 'Where Can I See...?',
+        info: "Pulls a randomly generated selection of art based on user input from the collections of two museums. Allows user to 'heart' pieces and tells them which museum they should visit based on which had the most selected pieces. Built in React, powered by the Harvard Art Museums API and Rijksmuseum API.",
+        link: 'https://heatherca.github.io/where-can-I-see/',
+        git: 'https://github.com/heatherca/where-can-I-see',
+        desktop: './assets/wcisdp2.png',
+        desktopAlt: 'desktop screenshot of Where Can I See project',
+        mobile: './assets/wcisM.png',
+        mobileAlt: 'mobile screenshot of Where Can I See project',
+      },
+      {
+        id: 'trivia',
+        title: 'Trivia Quest',
+        info: "Paired programming project conceptualized and built with Lucas Sibernagel. Trivia app that tests user's knowledge in the six Trivial Pursuit categories. Created with jQuery and utilizes a namespacing pattern organization. Questions pulled from the Open Trivia Database API.",
+        link: 'https://heatherandlucas.github.io/triviaQuest/',
+        git: 'https://github.com/heatherAndLucas/triviaQuest',
+        desktop: './assets/triviaD.png',
+        desktopAlt: 'desktop screenshot of Trivia Quest project',
+        mobile: './assets/triviaM.png',
+        mobileAlt: 'mobile screenshot of Trivia Quest project',
+      },
+      {
+        id: 'nonna',
+        title: "Nonna's Lasagna",
+        info: "Game in which user races against the clock to eat as much of Nonna's lasagna as possible. When time is up, alert displays a message from Nonna depending on how much lasagna was eaten. Built with jQuery, JavaScript and SCSS.",
+        link: 'https://heatherca.github.io/heather-andreadis-project-3/',
+        git: 'https://github.com/heatherca/heather-andreadis-project-3',
+        desktop: './assets/nonnaD.png',
+        desktopAlt: "desktop screenshot of Nonna's Lasagna project",
+        mobile: './assets/nonnaM.png',
+        mobileAlt: "mobile screenshot of Nonna's Lasagna project",
+      },
+      {
+        id: 'sun',
+        title: 'Sunshine',
+        info: "Multi-page PSD conversion project made with only Sass and HTML. Utilizes CSS flexbox and CSS grid to create a fully responsive custom design.",
+        link: 'https://heatherca.github.io/heather-andreadis-project-2/',
+        git: 'https://github.com/heatherca/heather-andreadis-project-2',
+        desktop: './assets/sunshineD.png',
+        desktopAlt: 'desktop screenshot of Sunshine project',
+        mobile: './assets/sunshineM.png',
+        mobileAlt: 'mobile screenshot of Sunshine project',
+      },
+
+    ]
+    const nav = document.querySelector('#slide-nav')
+    const hamBut = document.querySelector('#hamburger-menu')
+    const close = document.querySelector("#close")
+    const navItems = document.querySelectorAll("#slide-nav button, #link-list li a")
+    const logo = document.querySelector('.logo')
+    const links = document.querySelector('.link-list')
+
+    const lastItem = navItems[navItems.length - 1]
+    const workList = document.querySelectorAll('#work-list li button')
+    const workTitle = document.querySelector('.workTitle')
+    const workInfo = document.querySelector('.workInfo')
+    const workLink = document.querySelector('.workLink')
+    const workGit = document.querySelector('.workGit')
+    const workDesk = document.querySelector('.desktopPic')
+    const workMobile = document.querySelector('.mobilePic')
+    let workView = 'shoppies'
+
+
+
+
+    function openNav() {
+      nav.classList.add('active')
+      hamBut.classList.add('noDisplay')
+      logo.classList.add('hidden')
+      close.classList.add('display')
+      links.classList.add('linkStyle')
+      console.log('hello')
+      setTimeout(function () {
+        nav.classList.add('visible')
+      }, 0.5);
+      setTimeout(function () {
+        close.focus()
+      }, 2);
+    }
+
+    function closeNav(e) {
+      if (e.type === "keyup" && e.key !== "Escape") {
+        return;
+      }
+      nav.classList.remove("active");
+      nav.classList.remove("visible")
+      close.classList.remove('display')
+      links.classList.remove('linkStyle')
+      setTimeout(function () {
+        hamBut.classList.remove('noDisplay')
+        // logo.classList.remove('hidden')
+        hamBut.focus()
+      }, 2);
+      setTimeout(function () {
+        console.log('hiii')
+        logo.classList.remove('hidden')
+      }, 200);
+    }
+
+    function moveToTop(e) {
+      if (e.key === "Tab" && !e.shiftKey) {
+        e.preventDefault();
+        close.focus();
+        console.log('uppp')
+      }
+    }
+
+    function moveToBottom(e) {
+      if (e.key === "Tab" && e.shiftKey) {
+        e.preventDefault();
+        lastItem.focus()
+      }
+    }
+
+    function findVal(e) {
+      const clicked = e.target.closest('button').value
+      let workView = clicked;
+
+      let { title, id, info, link, git, mobile, desktop, desktopAlt, mobileAlt } = workArray.find(work => work.id === workView)
+
+      workTitle.textContent = title;
+      workInfo.textContent = info;
+      workLink.setAttribute('href', link);
+      workGit.setAttribute('href', git);
+      workDesk.setAttribute('src', desktop);
+      workDesk.setAttribute('alt', desktopAlt);
+      workMobile.setAttribute('src', mobile);
+      workMobile.setAttribute('alt', mobileAlt);
+      console.log(workView)
+      // console.log(workO)
+    }
+
+    document.querySelector('.skills').addEventListener('mousemove', function (event) {
+        const x = event.pageX
+        const y = event.pageY
+        const ySpot = document.querySelector('.skills').offsetTop
+
+
+        document.querySelectorAll('.skill i').forEach(div => {
+          const dx = div.offsetLeft + 35 - x
+          const dy = div.offsetTop + ySpot - y
+          const dist = Math.sqrt(dx * dx + dy * dy)
+          
+          console.log(dx,dy,y, div.offsetTop, ySpot)
+          
+          const score = Math.exp((dist * -0.004))
+
+          const score2 = (score /2) + 0.5
+
+          div.style.transform = "scale(" + score2 + ")"
+        })
+    })
+
+    document.querySelector('.skills').addEventListener('mouseleave', function (event) {
+        document.querySelectorAll('.skill i').forEach(div => {
+
+          div.style.transform = "scale(0.7)"
+
+        })
+      })
+
+
+
+
+
+    function eventListeners() {
+      hamBut.addEventListener('click', openNav)
+      close.addEventListener('click', closeNav)
+      lastItem.addEventListener('keydown', moveToTop)
+      close.addEventListener('keydown', moveToBottom)
+      nav.addEventListener('keyup', closeNav)
+      workList.forEach(work => work.addEventListener('click', findVal))
+    }
+
+    eventListeners();
+  </script>
+  <script>
+    AOS.init();
+  </script>
+
+
+</body>
+
+</html>
